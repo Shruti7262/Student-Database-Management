@@ -5,7 +5,7 @@ import pandas as pd
 
 # Connect to MongoDB
 client = pymongo.MongoClient(
-    "mongodb+srv://Shruti7262:Shruti224986@cluster0.veqleso.mongodb.net/"
+    "mongodb+srv://Shruti7262:Shruti224986@cluster0.veqleso.mongodb.net/?retryWrites=true&w=majority"
 )
 db = client.sdbs
 
